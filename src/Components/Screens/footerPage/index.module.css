@@ -1,0 +1,36 @@
+.FooterPageMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+  background-color: #21252a;
+  font-weight: 800;
+  font-family: "Figtree", sans-serif;
+  color: #827e7e;
+}
+.FooterPageHeaderLing{
+    width: 95%;
+    border: 1px solid #827e7e;
+}
+.FooterPageMainText {
+  color: antiquewhite;
+  margin: 0rem;
+  font-family: "Figtree", sans-serif;
+}
+.FooterPageButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+}
+.FooterPageIconsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+}
+.FooterPageCopyrightsText{
+    font-size: 12px;
+}

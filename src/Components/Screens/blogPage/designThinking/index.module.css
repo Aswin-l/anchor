@@ -1,0 +1,98 @@
+.DesignThinkingPageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.DesignThinkingPageCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+.DesignThinkingPageCardTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+    color: #fe672b;
+}
+.DesignThinkingPageCardFirstContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.DesignThinkingPageCardFirstContent{
+    font-size: 16px;
+    margin: 0rem;
+    word-break: break-word;
+    color: #827e7e;
+}
+.DesignThinkingPageCardFirstContentImg{
+    width: 30%;
+}
+.DesignThinkingPageCardFirstContainerText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    width: 60%;
+}
+.DesignThinkingPageCardSecondContainer{
+    width: 80%;
+    margin: 1rem 0rem;
+}
+.CareersPageThiredContainerSecondContentTextIcon{
+    color: #0e62c2;
+}
+.DesignThinkingContentText{
+    display: flex;
+    font-size: 16px;
+    margin: 0,5rem;
+    word-break: break-word;
+    color: #827e7e;
+    gap: 10px;
+}
+.DesignThinkingPageCardSubTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.5rem;
+    color: #318dea;
+}
+@media only screen and (min-width: 220px) and (max-width: 650px){
+    .DesignThinkingPageCard{
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
+    }
+    .DesignThinkingPageCardFirstContainer{
+        flex-direction: column;
+    }
+    .DesignThinkingPageCardFirstContainerText{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    .DesignThinkingPageCardFirstContentImg{
+        width: 90%;
+    }
+    .DesignThinkingPageCardSecondContainer{
+        width: 100%;
+    }
+    .DesignThinkingPageCardTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .DesignThinkingPageCardFirstContent{
+        font-size: 14px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .DesignThinkingPageCardSubTitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .DesignThinkingContentText{
+        font-size: 14px;
+        margin: 1rem;
+    }
+}

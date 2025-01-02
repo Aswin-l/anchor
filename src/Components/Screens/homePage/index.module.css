@@ -1,0 +1,377 @@
+.HomePageMainContainer{
+    width: 100%;
+}
+
+.HomePageFirstContent {
+    background-image: url("../../Assets/Images/bgthree.jpg");
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.HomePageFirstContentLogoImageHeader{
+        margin: 0rem;
+        font-size: 32px;
+    font-weight: 500;
+    color: #827e7e;
+    font-family: "Handjet", sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    
+
+}
+.HomePageSecondContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+    padding: 2rem 0rem;
+}
+.HomePageSecondContentHeader{
+    font-size: 36px;
+    margin: 0rem;
+    font-weight: 700;
+    color: #1168a2;
+    font-family: "Figtree", sans-serif;
+
+}
+.HomePageSecondContentSubHeader{
+    font-size: 30px;
+    margin: 1rem 0rem;
+    font-weight: 700;
+    color: #1e90dc;
+    font-family: "Figtree", sans-serif;
+
+}
+.HomePageSecondContentTechFeildContent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+    padding: 3rem 6rem;
+    justify-content: space-between;
+    background-color: #ebf8fe;
+
+}
+.HomePageSecondContentTechFeildContentField{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding:1.5rem;
+    width: 25%;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); 
+       border-radius: 10px;
+    background-color: #fff;
+    border-top: 8px solid #fe672b;
+    border-left: 8px solid #fe672b;
+}
+.HomePageSecondContentTechFeildContentFieldImg{
+    width: 40%;
+}
+.HomePageSecondContentTechFeildContentFieldWorldImg{
+    width: 75%;
+}
+.HomePageSecondContentTechFeildContentFieldText{
+    font-size: 16px;
+    margin: 2rem 0rem;
+    font-weight: 600;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+    color: #827e7e;
+}
+.HomePageThirdContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+}
+.HomePageThirdContentHeader{
+    font-size: 36px;
+    margin: 1rem 0rem;
+    font-weight: 700;
+    color: #1168a2;
+    font-family: "Figtree", sans-serif;
+}
+.HomePageThirdContentTechFeildContent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem 0rem;
+    padding: 1rem 4rem;
+    justify-content: space-evenly;
+    /* background-color: #ebf8fe; */
+}
+.HomePageThirdContentTechFeildContentFieldText{
+    font-size: 20px;
+    margin: 0rem;
+    font-weight: 600;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+    color: #1168a2;
+    text-decoration: none;
+}
+.HomePageThirdContentTechFeildContentField{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+    padding:1.5rem 1.4rem;
+    width: 19%;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    background-color: #fff;
+    border-top: 8px solid #4a4442ad;
+    border-left: 8px solid #4a4442ad;
+    background-color: #2c2a2a;
+}
+.HomePageThirdContentTechFeildContentFieldTextTwo{
+    font-size: 14px;
+    margin:  0.2rem 0rem;
+    font-weight: 600;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+    color: #827e7e;
+}
+.CardContainer{
+    height: 30vh;
+}
+.HomePageSecondContentTechFeildContentFieldWorldImgTestingApplication{
+    width: 50%;
+}
+.HomePageSecondContentTechFeildContentFieldImgItSupport{
+    width: 80%;
+}
+.HomePageSecondContentTechFeildContentFieldImgAgile{
+    width: 70%;
+}
+.HomePageFourthContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+}
+.HomePageFourthContentHeader{
+    font-size: 42px;
+    font-weight: 800;
+    color: #1e90dc;
+    margin: 0rem;
+    font-family: "Figtree", sans-serif;
+
+}
+.HomePageFourthContentSubHeader{
+    font-size: 30px;
+    font-weight: 800;
+    color: #1168a2;
+    margin: 0rem;
+    text-align: center;
+    padding: 1rem 6rem;
+    font-family: "Figtree", sans-serif;
+
+}
+.HomePageFourthContentSubText{
+    font-size: 28px;
+    font-weight: 800;
+    color: #ff0f0f;
+    margin: 0rem;
+    font-family: "Figtree", sans-serif;
+
+}
+.HomePageFourthContentField{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.HomePageFourthContentFieldCard{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(174,185,218,1) 26%, rgba(94,128,225,1) 69%, rgba(83,120,226,1) 77%, rgba(90,125,225,1) 83%, rgba(52,97,228,1) 100%, rgba(36,86,229,1) 100%, rgba(14,70,231,1) 100%);        padding: 1.2rem ;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 1px  #c4c2c2;
+    margin: 1rem;
+    color: #074168;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Figtree", sans-serif;
+    cursor: pointer;
+}
+/* .HomePageFourthContentFieldCard:hover{
+    background-color: #074168;
+    color: #fff;
+} */
+.MotionupAnimation{
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .HomePageFirstContentLogoImageHeader{
+        font-size: 16px;
+    }
+    .HomePageSecondContent{
+        margin: 0rem;
+        padding: 1rem;
+    }
+    .HomePageFirstContent{
+        height: 45vh;
+    }
+    .HomePageSecondContentSubHeader{
+        font-size: 17px;
+        text-align: center;
+    }
+    .HomePageSecondContentTechFeildContent{
+        padding: 1rem;
+    }
+    .HomePageSecondContentTechFeildContentField{
+        width: 100%;
+    }
+    .HomePageThirdContent{
+        margin: 0rem;
+        padding: 0rem 1rem;
+    }
+    .HomePageThirdContentHeader{
+        font-size: 18px;
+        text-align: center;
+    }
+    .HomePageSecondContentHeader{
+        font-size: 18px;
+    }
+    .HomePageFourthContentSubHeader {
+        font-size: 15px;
+        font-weight: 800;
+        color: #1168a2;
+        padding: 1rem 10px;
+       
+    }
+    .HomePageThirdContentTechFeildContent{
+        padding: 1rem;
+    }
+    .HomePageThirdContentTechFeildContentField{
+        padding: 1.5rem 0.4rem;
+        width: 100%;
+    }
+    .HomePageFourthContentHeader{
+        font-size: 18px;
+    }
+    .HomePageFourthContentSubText{
+        font-size: 18px;
+        text-align: center;
+    }
+    .HomePageFourthContentField{
+        padding: 1rem;
+    }
+    .HomePageFourthContentFieldCard{
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+    }
+    .Letterpullup{
+        font-size: 6px !important;
+      }
+}
+@media only screen and (min-width: 551px) and (max-width: 800px) {
+    .HomePageSecondContent{
+        margin: 0rem;
+    }
+    .HomePageSecondContentHeader{
+        font-size: 30px;
+    }
+    .HomePageSecondContentSubHeader{
+        font-size: 25px;
+        text-align: center;
+    }
+    .HomePageSecondContentTechFeildContent{
+        padding: 1rem;
+        justify-content: space-evenly;
+    }
+    .HomePageSecondContentTechFeildContentField{
+        width: 38%;
+    }
+    .HomePageThirdContent{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .HomePageThirdContentHeader{
+        font-size: 24px;
+        text-align: center;
+    }
+    .HomePageThirdContentTechFeildContent{
+        padding: 1rem 2rem;
+        justify-content: center;
+    }
+    .HomePageThirdContentTechFeildContentField{
+        margin: 1rem;
+        width: 35%;
+    }
+    .HomePageFourthContentHeader {
+        font-size: 28px;
+    }
+    .HomePageFourthContentSubHeader{
+        font-size: 18px;
+        text-align: center;
+        padding: 1rem;
+    }
+    .HomePageFourthContentSubText{
+        font-size: 24px;
+        text-align: center;
+    }
+    .HomePageFourthContentField{
+        padding: 1rem;
+    }
+    .HomePageFourthContentFieldCard{
+        width: 35%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .HomePageThirdContentTechFeildContentFieldTextTwo{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+   .HomePageSecondContentSubHeader{
+    text-align: center;
+   }
+   .HomePageSecondContentTechFeildContent{
+    padding: 1rem;
+   }
+   .HomePageThirdContent{
+    margin: 0rem;
+    padding: 0rem;
+   }
+   .HomePageThirdContentHeader{
+    text-align: center;
+   }
+   .HomePageThirdContentTechFeildContent{
+    padding: 1rem;
+    justify-content: space-evenly;
+   }
+   .HomePageThirdContentTechFeildContentField{
+    padding: 1.5rem 0.4rem;
+    width: 25%;
+}
+.HomePageThirdContentTechFeildContentFieldTextTwo{
+    font-size: 14px;
+}
+.HomePageFourthContentSubText{
+    text-align: center;
+}
+}

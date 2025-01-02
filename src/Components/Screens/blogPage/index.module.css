@@ -1,0 +1,119 @@
+.BlogPageMainContainer {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+}
+
+.BlogPageContent {
+    display: flex;
+    padding: 0rem 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.BlogPageContentCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: #fff; */
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    width: 29%;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.BlogPageContentCard:hover {
+    transform: translateY(-5px);
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+}
+
+.BlogPageCardContentImage {
+    width: 100px;
+    height: 100px;
+}
+.BlogPageCardContentButton{
+    padding: 0.5rem 2rem;
+    border: 1px solid #fe672b;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #827e7e;
+    background-color: #d3d4d6;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.BlogPageCardContentButton:hover{
+    background-color: #fe672b;
+}
+.BlogPageMainContainerTitle{
+    font-size: 24px;
+    margin: 1rem 0rem;
+    font-weight: 700;
+    color: #fe672b;
+    font-family: "Figtree", sans-serif;
+    padding: 0rem 2rem;
+}
+.BlogPageContentCardData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.BlogPageContentCardTitle{
+    font-size: 16px;
+    margin: 1rem 0rem;
+    font-weight: 600;
+    color: #827e7e;
+    font-family: "Figtree", sans-serif;
+}
+@media only screen and (min-width: 220px) and (max-width: 450px){
+    .BlogPageMainContainerTitle{
+        font-size: 18px;
+    }
+    .BlogPageContent{
+        padding: 0rem 1rem;
+    }
+    .BlogPageContentCard{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 451px) and (max-width: 600px){
+    .BlogPageMainContainerTitle{
+        font-size: 18px;
+    }
+    .BlogPageContent{
+        padding: 0rem 1rem;
+    }
+    .BlogPageContentCard{
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .BlogPageMainContainerTitle{
+        font-size: 18px;
+    }
+    .BlogPageContent{
+        padding: 0rem 1rem;
+    }
+    .BlogPageContentCard{
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1236px){
+    .BlogPageMainContainerTitle{
+        font-size: 18px;
+    }
+    .BlogPageContent{
+        padding: 0rem 1rem;
+    }
+    .BlogPageContentCard{
+        width: 40%;
+    }
+}

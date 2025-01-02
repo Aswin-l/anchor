@@ -1,0 +1,270 @@
+.CareersPageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.CareersPageFirstContainer{
+    background-image: url("../../Assets/Images/bgOne.jpg");
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.CareersPageFirstContainerHeader{
+    margin: 0rem;
+    font-size: 30px;
+    font-weight: 700;
+    color:  #f7faf7;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+    /* letter-spacing: 5px; */
+}
+.CareersPageFirstContainerTitle{
+    margin: 0rem;
+    font-size: 36px;
+    font-weight: 800;
+    color:  #f7faf7;
+    font-family: "Figtree", sans-serif;
+    text-align: center;
+    /* letter-spacing: 5px; */
+}
+.CareersPageSecondContainer{
+    display: flex;
+    padding: 4rem;
+    justify-content: space-between;
+}
+.CareersPageSecondContainerContentText{
+    margin: 0rem;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Figtree", sans-serif;
+    color: #1168a2;
+    width: 45%;
+}
+.CareersPageSecondContainerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+}
+.CareersPageSecondContainerContentFirstText{
+    font-size: 20px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    color: #827e7e;
+    margin: 0rem 0rem 2rem 0rem;
+}
+.CareersPageApplyButton{
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #0d3e5f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Figtree", sans-serif;
+}
+.CareersPageApplyButton:hover,
+.CareersPageApplyButton:focus{
+    background-color: #f83535;
+
+}
+.CareersPageThiredContainer{
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #edf3f8; */
+}
+.CareersPageThiredContainerFirstContent{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.CareersPageThiredContainerFirstContentTitle{
+    font-size: 46px;
+    font-weight: 800;
+    color: #0d3e5f;
+    font-family: "Figtree", sans-serif;
+    margin: 0rem;
+}
+.CareersPageThiredContainerSecondContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.CareersPageThiredContainerSecondContentText{
+    margin: 0.2rem 0rem;
+    color: #827e7e;
+    display: flex;
+    align-items: self-start;
+    gap: 5%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Figtree", sans-serif;
+}
+.CareersPageThiredContainerSecondContentTextIcon{
+    color: #0e62c2;
+}
+.CareersPageFourthContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.CareersPageFourthContainerTitle{
+    margin: 0.5rem 0rem;
+    color: #ff0f0f;
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Figtree", sans-serif; 
+}
+.CareersPageFourthContainerText{
+    margin: 0rem;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Figtree", sans-serif; 
+    text-align: center;
+    color: #827e7e;
+}
+.CareersPageFifthContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #edf3f8; */
+}
+.CareersPageFifthContainerTitle{
+    margin: 0.5rem 0rem;
+    color: #0d64a3;
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Figtree", sans-serif; 
+}
+.CareersPageFifthContainerText{
+    margin: 0rem;
+    font-size: 22px;
+    font-weight: 600;
+    color: #827e7e;
+    font-family: "Figtree", sans-serif; 
+    text-align: center;
+    line-height: 1.8;
+}
+.ModelMainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin:1rem;
+}
+.ModelMainContent{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.ModelMainContentLable{
+    margin: 0.2rem 0rem;
+    font-size: 16px;
+    color: #2076b0;
+    font-weight: 600;
+    font-family: "Figtree", sans-serif; 
+}
+.ModelContentFeild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ModelContentFeildTitle{
+        margin: 0rem;
+        font-size: 28px;
+        color: #2076b0;
+        font-weight: 700;
+        font-family: "Figtree", sans-serif; 
+}
+.ModelMainContentInput{
+    background-color: #fff;
+}
+@media only screen and (min-width: 220px) and (max-width: 800px) {
+    .CareersPageThiredContainer{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .CareersPageFifthContainer{
+        padding: 1rem 1rem;
+    }
+    .CareersPageFifthContainerTitle{
+        font-size: 30px;
+        text-align: center;
+    }
+    .CareersPageFifthContainerText{
+        margin: 0rem;
+        font-size: 20px;
+    }
+    .CareersPageFirstContainerHeader{
+        font-size: 32px;
+    }
+    .CareersPageFirstContainerTitle{
+        font-size: 22px;
+    }
+    .CareersPageFirstContainer{
+        height: 35vh;
+    }
+    .CareersPageSecondContainer{
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .CareersPageSecondContainerContentText{
+        margin: 1rem 0rem;
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .CareersPageSecondContainerContent{
+        width: 100%;
+        align-items: center;
+    }
+    .CareersPageSecondContainerContentFirstText {
+        font-size: 16px;
+        text-align: center;
+    }
+    .ModelMainContainer{
+        margin: 0rem;
+    }
+    .CareersPageThiredContainerFirstContent{
+        width: 100%;
+    }
+    .CareersPageThiredContainerFirstContentTitle{
+        font-size: 30px;
+        text-align: center;
+    }
+    .CareersPageThiredContainerSecondContent{
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+    .CareersPageThiredContainerSecondContentText{
+        font-size: 14px;
+    }
+    .CareersPageFourthContainer{
+        padding: 1rem;
+    }
+    .CareersPageFourthContainerTitle{
+        font-size: 26px;
+    }
+    .CareersPageFourthContainerText{
+        text-align: center;
+        font-size: 16px;
+    }
+}

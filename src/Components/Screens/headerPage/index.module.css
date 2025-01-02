@@ -1,0 +1,117 @@
+.HeaderPageMainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 1px 2px 0px #c4c2c2;
+    font-family: 'Figtree', sans-serif;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(174, 185, 218, 1) 26%, rgba(94, 128, 225, 1) 69%, rgba(83, 120, 226, 1) 77%, rgba(90, 125, 225, 1) 83%, rgba(52, 97, 228, 1) 100%, rgba(36, 86, 229, 1) 100%, rgba(14, 70, 231, 1) 100%);
+}
+
+.HeaderPageLogoImage {
+    height: 15vh;
+    width: 35%;
+}
+
+.HeaderPageLogoContainer {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.HeaderPageLogoContainerTextContent {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HeaderPageLogoContainerTextContentHeader {
+    margin: 0rem;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1e90dc;
+    font-family: 'Figtree', sans-serif;
+}
+
+.HeaderPageLogoContainerTextContentSubHeader {
+    margin: 0rem;
+    font-size: 14px;
+    font-weight: 800;
+    color: #1168a2;
+    font-family: "Figtree", sans-serif;
+}
+
+.HeaderPageButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.HeaderPageButtonField {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #1e90dc;
+    border: none;
+    border-radius: 7px;
+    font-family: "Figtree", sans-serif;
+}
+
+.HeaderPageButtonField:hover,
+.HeaderPageButtonField:active,
+.HeaderPageButtonField:focus {
+    background-color: #1168a2;
+    color: #fff;
+
+}
+.MobileView{
+    display: none;
+}
+.HeaderPageButtonFieldMobile{
+    margin: 0rem;
+    padding: 0rem 1rem;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #1e90dc;
+    border: none;
+    border-radius: 7px;
+    font-family: "Figtree", sans-serif;
+}
+@media only screen and (min-width: 220px) and (max-width: 550px) {
+.HeaderPageButtonContainer{
+    display: none;
+}
+.MobileView{
+    display: block;
+}
+.HeaderPageLogoContainer{
+    width: 55%;
+}
+.HeaderPageMainContainer{
+    align-items: center;
+}
+}
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+    .HeaderPageButtonContainer{
+        display: block;
+    } 
+    /* .MobileView{
+        display: block;
+    } */
+    .HeaderPageLogoContainer{
+        width: 30%;
+    }
+    .HeaderPageMainContainer{
+        align-items: center;
+    }
+    .HeaderPageButtonContainer{
+        padding: 1rem 0.5rem;
+    }
+    }

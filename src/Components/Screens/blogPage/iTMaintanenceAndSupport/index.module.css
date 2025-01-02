@@ -1,0 +1,98 @@
+.ITMaintanenceAndSupportPageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.ITMaintanenceAndSupportPageCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+.ITMaintanenceAndSupportPageCardTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+    color: #fe672b;
+}
+.ITMaintanenceAndSupportPageCardFirstContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.ITMaintanenceAndSupportPageCardFirstContent{
+    font-size: 16px;
+    margin: 0rem;
+    word-break: break-word;
+    color: #827e7e;
+}
+.ITMaintanenceAndSupportPageCardFirstContentImg{
+    width: 30%;
+}
+.ITMaintanenceAndSupportPageCardFirstContainerText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    width: 60%;
+}
+.ITMaintanenceAndSupportPageCardSecondContainer{
+    width: 80%;
+    margin: 1rem 0rem;
+}
+.CareersPageThiredContainerSecondContentTextIcon{
+    color: #0e62c2;
+}
+.ITMaintanenceAndSupportContentText{
+    display: flex;
+    font-size: 16px;
+    margin: 0,5rem;
+    word-break: break-word;
+    color: #827e7e;
+    gap: 10px;
+}
+.ITMaintanenceAndSupportPageCardSubTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.5rem;
+    color: #318dea;
+}
+@media only screen and (min-width: 220px) and (max-width: 650px){
+    .ITMaintanenceAndSupportPageCard{
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
+    }
+    .ITMaintanenceAndSupportPageCardFirstContainer{
+        flex-direction: column;
+    }
+    .ITMaintanenceAndSupportPageCardFirstContainerText{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    .ITMaintanenceAndSupportPageCardFirstContentImg{
+        width: 90%;
+    }
+    .ITMaintanenceAndSupportPageCardSecondContainer{
+        width: 100%;
+    }
+    .ITMaintanenceAndSupportPageCardTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .ITMaintanenceAndSupportPageCardFirstContent{
+        font-size: 14px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .ITMaintanenceAndSupportPageCardSubTitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .ITMaintanenceAndSupportContentText{
+        font-size: 14px;
+        margin: 1rem;
+    }
+}

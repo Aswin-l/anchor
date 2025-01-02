@@ -1,0 +1,98 @@
+.ITConsultingPageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.ITConsultingPageCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+.ITConsultingPageCardTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+    color: #fe672b;
+}
+.ITConsultingPageCardFirstContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.ITConsultingPageCardFirstContent{
+    font-size: 16px;
+    margin: 0rem;
+    word-break: break-word;
+    color: #827e7e;
+}
+.ITConsultingPageCardFirstContentImg{
+    width: 30%;
+}
+.ITConsultingPageCardFirstContainerText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    width: 60%;
+}
+.ITConsultingPageCardSecondContainer{
+    width: 80%;
+    margin: 1rem 0rem;
+}
+.CareersPageThiredContainerSecondContentTextIcon{
+    color: #0e62c2;
+}
+.ITConsultingContentText{
+    display: flex;
+    font-size: 16px;
+    margin: 0,5rem;
+    word-break: break-word;
+    color: #827e7e;
+    gap: 10px;
+}
+.ITConsultingPageCardSubTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.5rem;
+    color: #318dea;
+}
+@media only screen and (min-width: 220px) and (max-width: 650px){
+    .ITConsultingPageCard{
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
+    }
+    .ITConsultingPageCardFirstContainer{
+        flex-direction: column;
+    }
+    .ITConsultingPageCardFirstContainerText{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    .ITConsultingPageCardFirstContentImg{
+        width: 90%;
+    }
+    .ITConsultingPageCardSecondContainer{
+        width: 100%;
+    }
+    .ITConsultingPageCardTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .ITConsultingPageCardFirstContent{
+        font-size: 14px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .ITConsultingPageCardSubTitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .ITConsultingContentText{
+        font-size: 14px;
+        margin: 1rem;
+    }
+}

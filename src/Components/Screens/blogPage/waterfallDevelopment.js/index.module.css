@@ -1,0 +1,98 @@
+.WaterfallDevelopmentPageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.WaterfallDevelopmentPageCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+.WaterfallDevelopmentPageCardTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+    color: #fe672b;
+}
+.WaterfallDevelopmentPageCardFirstContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.WaterfallDevelopmentPageCardFirstContent{
+    font-size: 16px;
+    margin: 0rem;
+    word-break: break-word;
+    color: #827e7e;
+}
+.WaterfallDevelopmentPageCardFirstContentImg{
+    width: 30%;
+}
+.WaterfallDevelopmentPageCardFirstContainerText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    width: 60%;
+}
+.WaterfallDevelopmentPageCardSecondContainer{
+    width: 80%;
+    margin: 1rem 0rem;
+}
+.CareersPageThiredContainerSecondContentTextIcon{
+    color: #0e62c2;
+}
+.WaterfallDevelopmentContentText{
+    display: flex;
+    font-size: 16px;
+    margin: 0,5rem;
+    word-break: break-word;
+    color: #827e7e;
+    gap: 10px;
+}
+.WaterfallDevelopmentPageCardSubTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.5rem;
+    color: #318dea;
+}
+@media only screen and (min-width: 220px) and (max-width: 650px){
+    .WaterfallDevelopmentPageCard{
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
+    }
+    .WaterfallDevelopmentPageCardFirstContainer{
+        flex-direction: column;
+    }
+    .WaterfallDevelopmentPageCardFirstContainerText{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    .WaterfallDevelopmentPageCardFirstContentImg{
+        width: 90%;
+    }
+    .WaterfallDevelopmentPageCardSecondContainer{
+        width: 100%;
+    }
+    .WaterfallDevelopmentPageCardTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .WaterfallDevelopmentPageCardFirstContent{
+        font-size: 14px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .WaterfallDevelopmentPageCardSubTitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .WaterfallDevelopmentContentText{
+        font-size: 14px;
+        margin: 1rem;
+    }
+}

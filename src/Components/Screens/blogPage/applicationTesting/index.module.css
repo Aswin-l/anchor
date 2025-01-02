@@ -1,0 +1,98 @@
+.ApplicationTestingPageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.ApplicationTestingPageCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+.ApplicationTestingPageCardTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+    color: #fe672b;
+}
+.ApplicationTestingPageCardFirstContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.ApplicationTestingPageCardFirstContent{
+    font-size: 16px;
+    margin: 0rem;
+    word-break: break-word;
+    color: #827e7e;
+}
+.ApplicationTestingPageCardFirstContentImg{
+    width: 30%;
+}
+.ApplicationTestingPageCardFirstContainerText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    width: 60%;
+}
+.ApplicationTestingPageCardSecondContainer{
+    width: 80%;
+    margin: 1rem 0rem;
+}
+.CareersPageThiredContainerSecondContentTextIcon{
+    color: #0e62c2;
+}
+.ApplicationTestingContentText{
+    display: flex;
+    font-size: 16px;
+    margin: 0,5rem;
+    word-break: break-word;
+    color: #827e7e;
+    gap: 10px;
+}
+.ApplicationTestingPageCardSubTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.5rem;
+    color: #318dea;
+}
+@media only screen and (min-width: 220px) and (max-width: 650px){
+    .ApplicationTestingPageCard{
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
+    }
+    .ApplicationTestingPageCardFirstContainer{
+        flex-direction: column;
+    }
+    .ApplicationTestingPageCardFirstContainerText{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    .ApplicationTestingPageCardFirstContentImg{
+        width: 90%;
+    }
+    .ApplicationTestingPageCardSecondContainer{
+        width: 100%;
+    }
+    .ApplicationTestingPageCardTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .ApplicationTestingPageCardFirstContent{
+        font-size: 14px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .ApplicationTestingPageCardSubTitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .ApplicationTestingContentText{
+        font-size: 14px;
+        margin: 1rem;
+    }
+}

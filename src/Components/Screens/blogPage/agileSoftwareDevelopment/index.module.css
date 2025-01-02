@@ -1,0 +1,99 @@
+.AgileSoftwarePageMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.AgileSoftwarePageCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+.AgileSoftwarePageCardTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+    color: #fe672b;
+}
+.AgileSoftwarePageCardFirstContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.AgileSoftwarePageCardFirstContent{
+    font-size: 16px;
+    margin: 0rem;
+    word-break: break-word;
+    color: #827e7e;
+}
+.AgileSoftwarePageCardFirstContentImg{
+    width: 30%;
+}
+.AgileSoftwarePageCardFirstContainerText{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    width: 60%;
+    
+}
+.AgileSoftwarePageCardSecondContainer{
+    width: 80%;
+    margin: 1rem 0rem;
+}
+.CareersPageThiredContainerSecondContentTextIcon{
+    color: #0e62c2;
+}
+.AgileSoftwareContentText{
+    display: flex;
+    font-size: 16px;
+    margin: 0,5rem;
+    word-break: break-word;
+    gap: 10px;
+    color: #827e7e;
+}
+.AgileSoftwarePageCardSubTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0.5rem;
+    color: #318dea;
+}
+@media only screen and (min-width: 220px) and (max-width: 650px){
+    .AgileSoftwarePageCard{
+        margin: 0rem;
+        padding: 0rem;
+        width: 100%;
+    }
+    .AgileSoftwarePageCardFirstContainer{
+        flex-direction: column;
+    }
+    .AgileSoftwarePageCardFirstContainerText{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        padding: 0rem;
+    }
+    .AgileSoftwarePageCardFirstContentImg{
+        width: 90%;
+    }
+    .AgileSoftwarePageCardSecondContainer{
+        width: 100%;
+    }
+    .AgileSoftwarePageCardTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .AgileSoftwarePageCardFirstContent{
+        font-size: 14px;
+        margin: 1rem;
+        text-align: center;
+    }
+    .AgileSoftwarePageCardSubTitle {
+        font-size: 14px;
+        text-align: center;
+    }
+    .AgileSoftwareContentText{
+        font-size: 14px;
+        margin: 1rem;
+    }
+}
