@@ -4,15 +4,7 @@ import HeaderPage from "../headerPage/HeaderPage";
 import FooterPage from "../footerPage/FooterPage";
 import EmployeeBenefits from "../../Assets/Images/EmployeeBenefits.jpg"
 import AnchorIcon from '@mui/icons-material/Anchor';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
-import TextField from '@mui/material/TextField';
-import { toast } from 'react-toastify';
-import { useState } from "react";
-import { FileUploader } from "react-drag-drop-files";
-import emailjs from "@emailjs/browser";
+
 
 const style = {
     position: 'absolute',
@@ -97,66 +89,7 @@ class TextScramble {
     }
   }
 
-  const fileTypes = ["JPEG", "PNG", "GIF"];
-
 const CareersPage =()=>{
-
-    const [open, setOpen] = useState(false);
-
-    const [file, setFile] = useState(null);
-
-    const [employeeDetails ,setEmployeeDetails]= useState({
-        firstName: "",
-        lastName:"",
-        email:"",
-        mobileNumber:"",
-        file:"",
-    })
-
-    const notify = () => toast.success("Your Application Submitted Successfully!!!");
-
-    const handleSubmit = (e) => {
-        // e.preventDefault();
-    
-        emailjs
-          .send(
-            "anchorTechnoSoft", // Replace with your EmailJS Service ID
-            "anchorTechnoSoft", // Replace with your EmailJS Template ID
-            employeeDetails,
-            "qwPchRHkBbHHmaFYX" // Replace with your EmailJS Public Key
-          )
-          .then(
-            (response) => {
-              console.log("SUCCESS!", response.status, response.text);
-              toast.success("Email sent successfully!");
-            },
-            (err) => {
-              console.error("FAILED...", err);
-              toast.error("Failed to send email. Please try again.");
-            }
-          );
-      };
-     
-    const handleOpen = () => setOpen(true);
-
-    const handleClose = () => {
-        handleSubmit()
-        notify()
-        setOpen(false);
-    }
-
-
-  
-    const handleChange = (file ,e) => {
-      setFile(file);
-    };
-
-    useEffect(()=>{
-        setEmployeeDetails({
-          ...employeeDetails,
-          file: file,
-        })
-      },[ file])
 
 
       const textRef1 = useRef(null);
@@ -193,7 +126,9 @@ const CareersPage =()=>{
                             <p className={Styles.CareersPageSecondContainerContentFirstText}>
                             At Anchor Techno Soft, you’ll have the opportunity to get creative on a vast array of projects, big and small, expand your skills, and be part of a positive and collaborative company culture.
                             </p>
-                            <button onClick={handleOpen} className={Styles.CareersPageApplyButton}>Apply Now!</button>
+                            <p className={Styles.CareersPageSecondContainerContentFirstText}>
+                                Get in touch with us : <span  className={Styles.CareersPageSecondContainerContentFirstTextMail}>anchortechnosoft@gamil.com</span>
+                            </p>
                         </div>
             </div>
             <div className={Styles.CareersPageThiredContainer}>
@@ -229,65 +164,13 @@ const CareersPage =()=>{
                 <p className={Styles.CareersPageFifthContainerTitle}>We'd like to hear from you!</p>
                 <p className={Styles.CareersPageFifthContainerText}>
                 If the opportunities at Anchor Techno Soft excite you, we encourage you to apply.<br/>
-                If you have any questions before applying, you can send an e-mail to anchortechnosoft@gmail.com<br/>
+                If you have any questions before applying, you can send an e-mail to  <span  className={Styles.CareersPageSecondContainerContentFirstTextMail}>anchortechnosoft@gmail.com</span><br/>
                 Please send all applications through the Career Portal. We look forward to recieving your application!
                 </p>
             </div>
             <FooterPage/>
 
-            <Modal
-                open={open}
-                onClose={handleClose}
-                aria-labelledby="modal-modal-title"
-                aria-describedby="modal-modal-description"
-            >
-                <Box sx={style} className={Styles.ModelContentFeild}>
-                    <p className={Styles.ModelContentFeildTitle}>Welcome to Anchor !</p>
-                    <div className={Styles.ModelMainContainer}>
-                        <div className={Styles.ModelMainContent}>
-                            <p className={Styles.ModelMainContentLable}>First Name :</p>
-                            <TextField   className={Styles.ModelMainContentInput}
-                            name="firstName"
-                            onChange={(e) => setEmployeeDetails({ ...employeeDetails, firstName: e.target.value })}
-                            />
-                        </div>
-                        <div className={Styles.ModelMainContent}>
-                            <p className={Styles.ModelMainContentLable}>Last Name :</p>
-                            <TextField  className={Styles.ModelMainContentInput}
-                             name=" lastName"
-                             onChange={(e) => setEmployeeDetails({ ...employeeDetails, lastName: e.target.value })}
-                             />
-                        </div>
-                        <div className={Styles.ModelMainContent}>
-                            <p className={Styles.ModelMainContentLable}>Email :</p>
-                            <TextField  className={Styles.ModelMainContentInput}
-                               name=" email"
-                               onChange={(e) => setEmployeeDetails({ ...employeeDetails, email: e.target.value })}
-                            />
-                        </div>
-                        <div className={Styles.ModelMainContent}>
-                            <p className={Styles.ModelMainContentLable}>Mobile Number : </p>
-                            <TextField  className={Styles.ModelMainContentInput}
-                              name=" mobileNumber"
-                              onChange={(e) => setEmployeeDetails({ ...employeeDetails, mobileNumber: e.target.value })}
-                            />
-                        </div>
-                        <div className={Styles.ModelMainContent}>
-                            <p className={Styles.ModelMainContentLable}>Hello To Drag & Drop Files</p>
-                            <FileUploader
-                                multiple={true}
-                                handleChange={handleChange}
-                                name="file"
-                                types={fileTypes}
-                                className={Styles.ModelMainContentInput}
-
-                            />
-                            <p>{file ? `File name: ${file[0].name}` : "no files uploaded yet"}</p>
-                            </div>
-                    </div>
-                    <button onClick={handleClose} className={Styles.CareersPageApplyButton}>Apply Now!</button>
-                </Box>
-            </Modal>    
+           
         </div>
     )
 }

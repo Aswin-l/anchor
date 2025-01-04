@@ -19,16 +19,17 @@
     margin: 0rem;
     font-size: 30px;
     font-weight: 700;
-    color:  #f7faf7;
+    color: #827e7e;
+    text-transform: lowercase;
     font-family: "Figtree", sans-serif;
     text-align: center;
     /* letter-spacing: 5px; */
 }
 .CareersPageFirstContainerTitle{
     margin: 0rem;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 800;
-    color:  #f7faf7;
+    color: #827e7e;
     font-family: "Figtree", sans-serif;
     text-align: center;
     /* letter-spacing: 5px; */
@@ -60,6 +61,10 @@
     color: #827e7e;
     margin: 0rem 0rem 2rem 0rem;
 }
+.CareersPageSecondContainerContentFirstTextMail{
+    color: #fe672b;
+}
+
 .CareersPageApplyButton{
     padding: 0.5rem 2rem;
     border: none;
@@ -123,7 +128,7 @@
 }
 .CareersPageFourthContainerTitle{
     margin: 0.5rem 0rem;
-    color: #ff0f0f;
+    color: #fe672b;
     font-size: 34px;
     font-weight: 800;
     font-family: "Figtree", sans-serif; 
