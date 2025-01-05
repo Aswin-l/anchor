@@ -285,9 +285,7 @@
         width: 80%;
         text-align: center;
     }
-    .Letterpullup{
-        font-size: 6px !important;
-      }
+
 }
 @media only screen and (min-width: 551px) and (max-width: 800px) {
     .HomePageSecondContent{
