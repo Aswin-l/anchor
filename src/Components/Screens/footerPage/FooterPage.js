@@ -15,7 +15,7 @@ const FooterPage = () => {
                 <Link to="/aboutus"><button className={Styles.HeaderPageButtonField}>About US</button></Link> */}
 
         <section className="nav-8">
-          <nav>
+          <nav className="footerPageLink">
             {[
               { href: "/", text: "Home", dataText: "Main page" },
               { href: "/careers", text: "Career", dataText: "See our works" },
