@@ -212,6 +212,9 @@
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
+    .CareersPageFirstContainer{
+        height: 20vh;
+    }
     .CareersPageFifthContainer{
         padding: 1rem 1rem;
     }
