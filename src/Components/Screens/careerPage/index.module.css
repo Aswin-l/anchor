@@ -212,9 +212,6 @@
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
-    .CareersPageFirstContainer{
-        height: 20vh;
-    }
     .CareersPageFifthContainer{
         padding: 1rem 1rem;
     }
@@ -231,6 +228,9 @@
     }
     .CareersPageFirstContainerTitle{
         font-size: 22px;
+    }
+    .CareersPageFirstContainer{
+        height: 35vh;
     }
     .CareersPageSecondContainer{
         padding: 1rem;
