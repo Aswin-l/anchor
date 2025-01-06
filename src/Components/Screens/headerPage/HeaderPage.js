@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
-import Nav from "./nav";
-
-
+import MenuIcon from '@mui/icons-material/Menu';
 
 const ITEM_HEIGHT = 48;
 const HeaderPage = () => {
@@ -74,8 +71,9 @@ const HeaderPage = () => {
                     aria-expanded={open ? 'true' : undefined}
                     aria-haspopup="true"
                     onClick={handleClick}
+                    
                 >
-                    <MoreVertIcon />
+                    <MenuIcon  />
                 </IconButton>
                 <Menu
                     id="long-menu"

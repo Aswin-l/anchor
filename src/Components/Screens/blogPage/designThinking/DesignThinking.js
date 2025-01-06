@@ -3,6 +3,7 @@ import Styles from './index.module.css';
 import HeaderPage from "../../headerPage/HeaderPage";
 import DesignThinkingBlog from "../../../Assets/Images/DesignThinkingBlog.png";
 import AnchorIcon from '@mui/icons-material/Anchor';
+import FooterPage from "../../footerPage/FooterPage";
 
 const DesignThinking = () => {
     return (
@@ -169,6 +170,7 @@ const DesignThinking = () => {
                     By embracing Design Thinking, you’re not only solving problems—you’re creating opportunities for growth, innovation, and impact. </p>
                 </div>
             </div>
+            <FooterPage/>
         </div>
     )
 }

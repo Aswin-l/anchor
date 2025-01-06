@@ -3,6 +3,7 @@ import Styles from './index.module.css';
 import HeaderPage from "../../headerPage/HeaderPage";
 import ITSystemAndServiceIntegrationBlog from "../../../Assets/Images/ITSystemAndServiceIntegrationBlog.png";
 import AnchorIcon from '@mui/icons-material/Anchor';
+import FooterPage from "../../footerPage/FooterPage";
 
 const ITSystemAndServiceIntegration = () => {
     return (
@@ -175,6 +176,7 @@ const ITSystemAndServiceIntegration = () => {
                   
                 </div>
             </div>
+            <FooterPage/>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import Styles from './index.module.css';
 import HeaderPage from "../../headerPage/HeaderPage";
 import AgileSoftwareImg from "../../../Assets/Images/Agile-Software-Development-methodology.webp";
 import AnchorIcon from '@mui/icons-material/Anchor';
+import FooterPage from "../../footerPage/FooterPage";
 
 const AgileSoftware = () => {
     return (
@@ -167,6 +168,7 @@ const AgileSoftware = () => {
                     If your team is looking to embrace Agile, start small, focus on the core principles, and continuously adapt to find what works best for your projects.</p>
                 </div>
             </div>
+            <FooterPage/>
         </div>
     )
 }

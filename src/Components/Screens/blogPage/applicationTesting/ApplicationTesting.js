@@ -3,6 +3,7 @@ import Styles from './index.module.css';
 import HeaderPage from "../../headerPage/HeaderPage";
 import ApplicationTestingBlog from "../../../Assets/Images/ApplicationTestingBlog.png";
 import AnchorIcon from '@mui/icons-material/Anchor';
+import FooterPage from "../../footerPage/FooterPage";
 
 const ApplicationTesting = () => {
     return (
@@ -193,6 +194,7 @@ const ApplicationTesting = () => {
                     
                 </div>
             </div>
+            <FooterPage/>
         </div>
     )
 }

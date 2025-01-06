@@ -3,6 +3,7 @@ import Styles from './index.module.css';
 import HeaderPage from "../../headerPage/HeaderPage";
 import ITConsultingBlog from "../../../Assets/Images/ITConsultingBlog.png";
 import AnchorIcon from '@mui/icons-material/Anchor';
+import FooterPage from "../../footerPage/FooterPage";
 
 const ITConsulting = () => {
     return (
@@ -153,6 +154,7 @@ const ITConsulting = () => {
                     
                 </div>
             </div>
+            <FooterPage/>
         </div>
     )
 }

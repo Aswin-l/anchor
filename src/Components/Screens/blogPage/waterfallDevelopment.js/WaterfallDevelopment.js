@@ -3,6 +3,7 @@ import Styles from './index.module.css';
 import HeaderPage from "../../headerPage/HeaderPage";
 import WaterfallDevelopmentBlog from "../../../Assets/Images/WaterfallDevelopmentBlog.jpg";
 import AnchorIcon from '@mui/icons-material/Anchor';
+import FooterPage from "../../footerPage/FooterPage";
 
 const WaterfallDevelopment = () => {
     return (
@@ -142,6 +143,7 @@ const WaterfallDevelopment = () => {
 
                 </div>
             </div>
+            <FooterPage/>
         </div>
     )
 }
