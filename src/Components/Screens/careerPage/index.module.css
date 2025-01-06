@@ -232,9 +232,6 @@
     .CareersPageFirstContainerTitle{
         font-size: 22px;
     }
-    .CareersPageFirstContainer{
-        height: 35vh;
-    }
     .CareersPageSecondContainer{
         padding: 1rem;
         flex-direction: column;
