@@ -49,7 +49,7 @@ const CareersPage =()=>{
                             At Anchor Techno Soft, you’ll have the opportunity to get creative on a vast array of projects, big and small, expand your skills, and be part of a positive and collaborative company culture.
                             </p>
                             <p className={Styles.CareersPageSecondContainerContentFirstText}>
-                                Get in touch with us : <span  className={Styles.CareersPageSecondContainerContentFirstTextMail}>anchortechnosoft@gamil.com</span>
+                                Get in touch with us : <span  className={Styles.CareersPageSecondContainerContentFirstTextMail}>aswin@anchortechnosoft.in</span>
                             </p>
                         </div>
             </div>
