@@ -24,96 +24,18 @@ const style = {
             Padding:"0.5rem 1.5rem",
         },
   };
-  
-  const styles = {
-    dud: {
-      color: '#757575',
-    },
-  };
 
-
-class TextScramble {
-    constructor(el) {
-      this.el = el;
-      this.chars = "!<>-_\\/[]{}—=+*^?#________";
-      this.update = this.update.bind(this);
-    }
-  
-    setText(newText) {
-      const oldText = this.el.innerText;
-      const length = Math.max(oldText.length, newText.length);
-      const promise = new Promise((resolve) => (this.resolve = resolve));
-      this.queue = [];
-      for (let i = 0; i < length; i++) {
-        const from = oldText[i] || "";
-        const to = newText[i] || "";
-        const start = Math.floor(Math.random() * 40);
-        const end = start + Math.floor(Math.random() * 40);
-        this.queue.push({ from, to, start, end });
-      }
-      cancelAnimationFrame(this.frameRequest);
-      this.frame = 0;
-      this.update();
-      return promise;
-    }
-  
-    update() {
-      let output = "";
-      let complete = 0;
-      for (let i = 0, n = this.queue.length; i < n; i++) {
-        let { from, to, start, end, char } = this.queue[i];
-        if (this.frame >= end) {
-          complete++;
-          output += to;
-        } else if (this.frame >= start) {
-          if (!char || Math.random() < 0.28) {
-            char = this.randomChar();
-            this.queue[i].char = char;
-          }
-          output += `<span style="color:${styles.dud.color}">${char}</span>`;
-        } else {
-          output += from;
-        }
-      }
-      this.el.innerHTML = output;
-      if (complete === this.queue.length) {
-        this.resolve();
-      } else {
-        this.frameRequest = requestAnimationFrame(this.update);
-        this.frame++;
-      }
-    }
-  
-    randomChar() {
-      return this.chars[Math.floor(Math.random() * this.chars.length)];
-    }
-  }
 
 const CareersPage =()=>{
 
 
-      const textRef1 = useRef(null);
-      const textRef2 = useRef(null);
-      
-      useEffect(() => {
-        const fx1 = new TextScramble(textRef1.current);
-        const fx2 = new TextScramble(textRef2.current);
-    
-        fx1.setText("Welcome to our career portal!");
-        fx2.setText("We look forward to your participation");
-    
-        return () => {
-          cancelAnimationFrame(fx1.frameRequest);
-          cancelAnimationFrame(fx2.frameRequest);
-        };
-      }, []);
 
     return(
         <div className={Styles.CareersPageMainContainer}>
             <HeaderPage/>
             <div className={Styles.CareersPageFirstContainer}>
-                <p className={Styles.CareersPageFirstContainerHeader} ref={textRef1}></p>
-                <p className={Styles.CareersPageFirstContainerTitle} ref={textRef2}></p>
+                <p className={Styles.CareersPageFirstContainerHeader} >Welcome to our career portal!</p>
+                <p className={Styles.CareersPageFirstContainerTitle} >We look forward to your participation</p>
             </div>
             <div className={Styles.CareersPageSecondContainer}>
                         <p className={Styles.CareersPageSecondContainerContentText}>Joining Anchor Techno Soft   gives You the exposure to face meet challenges with

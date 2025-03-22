@@ -5,7 +5,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 0.2rem;
-  background-color: #21252a;
+  /* background-color: #21252a; */
   font-weight: 800;
   font-family: "Figtree", sans-serif;
   color: #827e7e;
@@ -15,7 +15,7 @@
     border: 1px solid #827e7e;
 }
 .FooterPageMainText {
-  color: antiquewhite;
+  color: rgb(231, 107, 30);
   margin: 0rem;
   font-family: "Figtree", sans-serif;
 }

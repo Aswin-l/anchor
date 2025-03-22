@@ -9,35 +9,6 @@ import { px, transform } from 'framer-motion';
 const AboutUs = () => {
 
 
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-        const timer = setTimeout(() => setIsLoading(false), 1000);
-        return () => clearTimeout(timer);
-    }, []);
-
-    // useEffect(() => {
-    //     const textElement = document.getElementById("text");
-    //     if (!textElement) {
-    //         console.warn("Element with id 'text' not found");
-    //         return;
-    //     }
-
-    //     let newDom = "";
-    //     const animationDelay = 6;
-
-    //     for (let i = 0; i < textElement.innerText.length; i++) {
-    //         newDom += `<span class="${Styles.char}">${
-    //             textElement.innerText[i] === " " ? "&nbsp;" : textElement.innerText[i]
-    //         }</span>`;
-    //     }
-
-    //     textElement.innerHTML = newDom;
-
-    //     Array.from(textElement.children).forEach((child, i) => {
-    //         child.style.animationDelay = `${animationDelay * i}ms`;
-    //     });
-    // }, [isLoading]); 
 
 
     const courses = [
@@ -64,26 +35,14 @@ const AboutUs = () => {
         <div className={Styles.AboutUsMainContainer}>
             < HeaderPage />
             <div className={Styles.AboutUsFirstContainer}>
-                {isLoading ? (
-                    <>
-                        <div className="shimmer shimmer-img"></div>
-
-                    </>
-                ) : (
-                    <img
+                     <img
                         src={AnchorLogo}
                         alt=""
                         className={Styles.AboutUsFirstContainerContentImg}
                     />
-                )}
+ 
                 <div className={Styles.AboutUsFirstContainerContent}>
-                    {isLoading ? (
-                        <>
-                            <div className="shimmer shimmer-text"></div>
-                            <div className="shimmer shimmer-text" style={{ width: "80%" }}></div>
-                            <div className="shimmer shimmer-text" style={{ width: "60%" }}></div>
-                        </>
-                    ) : (
+                  
                         <div className={Styles.center}>
                             <p className={Styles.AboutUsFirstContainerContentHeader}>
                                 Why Anchor Techno Soft ?
@@ -99,7 +58,7 @@ const AboutUs = () => {
                                 the extensive and important knowledge of our excellent engineers.
                             </p>
                         </div>
-                    )}
+                    {/* )} */}
                 </div>
             </div>
             <div className={Styles.AboutUsSecondContainer}>
@@ -124,15 +83,7 @@ const AboutUs = () => {
                 <p className={Styles.AboutUsThirdContainerTitle}>Our Services are<br />
                     Industry-Specific and Dedicated
                 </p>
-                {isLoading ? (
-                    <>
-                        <div className="shimmer shimmer-text"></div>
-                        <div className="shimmer shimmer-text"></div>
-                        <div className="shimmer shimmer-text"></div>
-                        <div className="shimmer shimmer-text" style={{ width: "80%" }}></div>
-                        <div className="shimmer shimmer-text" style={{ width: "60%" }}></div>
-                    </>
-                ) : (
+               
                     <MotionUp delay={0}>
                         <div className={Styles.AboutUsThirdContainerContentFeild}>
                             {/* <div className={Styles.AboutUsThirdContent}>
@@ -192,7 +143,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </MotionUp>
-                )}
+                
             </div>
             <FooterPage />
         </div>

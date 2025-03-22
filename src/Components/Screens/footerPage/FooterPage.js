@@ -36,29 +36,20 @@ const FooterPage = () => {
         <ul className="social-links">
           <li className="facebook">
             <a href="https://www.linkedin.com/company/anchor-techno-soft/">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
+             
               <span className="fa fa-facebook"><LinkedInIcon/></span>
             </a>
           </li>
          
           <li className="instagram">
             <a href="https://www.instagram.com/anchor_techno_soft?igsh=ZzUzMTZiNW1yM3Fo">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
+           
               <span className="fa fa-instagram"><InstagramIcon/></span>
             </a>
           </li>
           <li className="linkedin">
             <a href="#">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
+             
               <span className="fa fa-linkedin"><WhatsAppIcon/></span>
             </a>
           </li>

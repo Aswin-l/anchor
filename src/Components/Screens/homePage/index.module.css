@@ -18,10 +18,10 @@
 
 .HomePageFirstContentLogoImageHeader{
         margin: 0rem;
-        font-size: 32px;
-    font-weight: 500;
-    color: #827e7e;
-    font-family: "Handjet", sans-serif;
+        font-size: 24px;
+    font-weight: 600;
+    color: #e3e3e3;
+    font-family: "Quicksand", sans-serif;
     text-align: center;
     letter-spacing: 5px;
     
@@ -137,9 +137,10 @@
     5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); 
     border-radius: 10px;
     background-color: #fff;
-    border-top: 8px solid #4a4442ad;
-    border-left: 8px solid #4a4442ad;
-    background-color: #2c2a2a;
+    /* border-top: 8px solid #4a4442ad;
+    border-left: 8px solid #4a4442ad; */
+    /* background-color: #2c2a2a; */
+    border-bottom: 6px solid #1168a2;
 }
 .HomePageThirdContentTechFeildContentFieldTextTwo{
     font-size: 14px;
@@ -203,7 +204,6 @@
     padding: 2rem;
 }
 .HomePageFourthContentFieldCard{
-    background: rgb(50, 49, 49);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(174,185,218,1) 26%, rgba(94,128,225,1) 69%, rgba(83,120,226,1) 77%, rgba(90,125,225,1) 83%, rgba(52,97,228,1) 100%, rgba(36,86,229,1) 100%, rgba(14,70,231,1) 100%);        padding: 1.2rem ;
     border-radius: 10px;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),

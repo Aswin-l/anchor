@@ -1,5 +1,6 @@
 body {
-  background-color: #21252a;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
 }
 
 .guZdik {
@@ -132,7 +133,7 @@ body .container .card .box {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #2a2b2f;
+  background: #28282d;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -348,11 +349,12 @@ h1.inline-block.text-center.font-bold.text-\[1\.65rem\].leading-4.text-black.dro
   display: flex;
   font-weight: 600;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
   transition-delay: 0s;
   -webkit-transition-delay: 0s;
+  font-family: "Quicksand", sans-serif;
 }
 .nav-8 .linktext:before,
 .nav-8 .linktext:after {
@@ -402,7 +404,9 @@ h1.inline-block.text-center.font-bold.text-\[1\.65rem\].leading-4.text-black.dro
   color: #007bff;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Quicksand", sans-serif;
+  
+  /* text-transform: uppercase; */
   transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
 }
