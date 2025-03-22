@@ -86,7 +86,7 @@ const CareersPage =()=>{
                 <p className={Styles.CareersPageFifthContainerTitle}>We'd like to hear from you!</p>
                 <p className={Styles.CareersPageFifthContainerText}>
                 If the opportunities at Anchor Techno Soft excite you, we encourage you to apply.<br/>
-                If you have any questions before applying, you can send an e-mail to  <span  className={Styles.CareersPageSecondContainerContentFirstTextMail}>anchortechnosoft@gmail.com</span><br/>
+                If you have any questions before applying, you can send an e-mail to  <span  className={Styles.CareersPageSecondContainerContentFirstTextMail}>aswin@anchortechnosoft.in</span><br/>
                 Please send all applications through the Career Portal. We look forward to recieving your application!
                 </p>
             </div>
