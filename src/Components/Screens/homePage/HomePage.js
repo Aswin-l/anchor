@@ -29,9 +29,7 @@ const HomePage = () => {
                 <div className={Styles.HomePageFirstContent} >
               
                     <p className={Styles.HomePageFirstContentLogoImageHeader}>We Create and Develop Digital Products
-                    {/* <LetterPullup words="We Create and Develop Digital Products"/> 
-                    <LetterPullup words="In the IT Sector to Meet the Needs of Our Customers."/>
-                    In the IT Sector to Meet the Needs of Our Customers. */}
+                   
                     </p>
                     <p className={Styles.HomePageFirstContentLogoImageHeader}>
                    
